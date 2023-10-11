@@ -12,9 +12,9 @@
 	<link rel="shortcut icon" href="img/favicon/Gulp.svg">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css?_v=20231011195605" />
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap&_v=20231011195605" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.min.css?_v=20231011195605">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css?_v=20231012011758" />
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap&_v=20231012011758" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css?_v=20231012011758">
 </head>
 
 <body>
@@ -36,19 +36,19 @@
 				<nav class="header__nav">
 					<ul class="header__list">
 						<li class="header__item">
-							<a href="" class="header__link hover-link">Автопарк</a>
+							<a href="" class="header__link">Автопарк</a>
 						</li>
 						<li class="header__item">
-							<a href="" class="header__link hover-link">Услуги</a>
+							<a href="" class="header__link">Услуги</a>
 						</li>
 						<li class="header__item">
-							<a href="" class="header__link hover-link">Условия</a>
+							<a href="" class="header__link">Условия</a>
 						</li>
 						<li class="header__item">
-							<a href="" class="header__link hover-link">Контакты</a>
+							<a href="" class="header__link">Контакты</a>
 						</li>
 						<li class="header__item">
-							<a href="" class="header__link hover-link">Партнерам</a>
+							<a href="" class="header__link">Партнерам</a>
 						</li>
 					</ul>
 				</nav>
@@ -56,7 +56,7 @@
 					<svg class='icon'>
 						<use xlink:href='img/svg/sprite.svg#tel'></use>
 					</svg>
-					<span class="hover-link">+7 (345) 238-83-11</span>
+					<span>+7 (345) 238-83-11</span>
 				</a>
 				<button class="header__button" data-da=".header__list,767.98,last">
 					<span>Оставить заявку</span>
@@ -147,54 +147,67 @@
 								<div class="rent__car-specifications">
 									<span class="rent__car-specifications-span">Характеристики</span>
 									<div class="rent__car-info">
-										<div class="rent__car-info_item">
-											<svg class='icon calendar'>
-												<use xlink:href='img/svg/sprite.svg#calendar'></use>
+										<div class="rent__car-info_col">
+											<div class="rent__car-info_item">
+												<svg class='icon calendar'>
+													<use xlink:href='img/svg/sprite.svg#calendar'></use>
+												</svg>
 												<span>2021</span>
-											</svg>
-										</div>
-										<div class="rent__car-info_item">
-											<svg class='icon speedometer'>
-												<use xlink:href='img/svg/sprite.svg#speedometer'></use>
-												<span>3.2 сек.</span>
-											</svg>
-										</div>
-										<div class="rent__car-info_item">
-											<svg class='icon transfers-2'>
-												<use xlink:href='img/svg/sprite.svg#transfers-2'></use>
-												<span>290 км/ч</span>
-											</svg>
-										</div>
-										<div class="rent__car-info_item">
-											<svg class='icon profile'>
-												<use xlink:href='img/svg/sprite.svg#profile'></use>
-												<span>5 местный</span>
-											</svg>
-										</div>
-										<div class="rent__car-info_item">
-											<svg class='icon volume'>
-												<use xlink:href='img/svg/sprite.svg#volume'></use>
+											</div>
+											<div class="rent__car-info_item">
+												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 17" class="icon">
+													<path
+														d="M25.2852 5.47188L25.0367 5.05597H20.6624V7.07973H20.2247V4.14511H17.9577L16.5184 2.86888H14.1383V1.708H14.9039V0H8.83601V1.708H9.60154V2.86888H7.12361L5.68431 4.14511H2.85379V4.99914V8.38721H1.708V6.20734H0V12.2752H1.708V10.0953H2.85379V13.4833V14.3374H7.12361L10.1267 17H20.2247V14.0105H20.6624V16.0343H25.0367L25.2852 15.6183C25.3777 15.4635 26.1895 14.0052 26.1895 10.5451C26.1895 7.085 25.3778 5.62677 25.2852 5.47188ZM11.3096 1.7081H12.4303V2.86899H11.3096V1.7081ZM23.9863 14.3263H22.3704V12.3025H18.5167V15.2919H10.7749L7.7718 12.6293H4.56184V5.85317H6.33256L7.77186 4.57693H15.8702L17.3095 5.85317H18.5167V8.78778H22.3704V6.76402H23.9863C24.1844 7.34643 24.4815 8.55207 24.4815 10.5452C24.4816 12.5383 24.1845 13.7438 23.9863 14.3263Z" />
+												</svg>
 												<span>4.0 л.</span>
-											</svg>
+											</div>
 										</div>
-										<div class="rent__car-info_item">
-											<svg class='icon transfers'>
-												<use xlink:href='img/svg/sprite.svg#transfers'></use>
+
+										<div class="rent__car-info_col">
+											<div class="rent__car-info_item">
+												<svg class='icon speedometer'>
+													<use xlink:href='img/svg/sprite.svg#speedometer'></use>
+												</svg>
 												<span>3.2 сек.</span>
-											</svg>
+											</div>
+											<div class="rent__car-info_item">
+												<svg class='icon transfers'>
+													<use xlink:href='img/svg/sprite.svg#transfers'></use>
+												</svg>
+												<span>Автомат</span>
+											</div>
 										</div>
-										<div class="rent__car-info_item">
-											<svg class='icon chassis'>
-												<use xlink:href='img/svg/sprite.svg#chassis'></use>
-												<span>3.2 сек.</span>
-											</svg>
+
+										<div class="rent__car-info_col">
+											<div class="rent__car-info_item">
+												<svg class='icon transfers-2'>
+													<use xlink:href='img/svg/sprite.svg#transfers-2'></use>
+												</svg>
+												<span>290 км/ч</span>
+											</div>
+											<div class="rent__car-info_item">
+												<svg class='icon chassis'>
+													<use xlink:href='img/svg/sprite.svg#chassis'></use>
+												</svg>
+												<span>Полный</span>
+											</div>
 										</div>
-										<div class="rent__car-info_item">
-											<svg class='icon column'>
-												<use xlink:href='img/svg/sprite.svg#column'></use>
-												<span>3.2 сек.</span>
-											</svg>
+										
+										<div class="rent__car-info_col">
+											<div class="rent__car-info_item">
+												<svg class='icon profile'>
+													<use xlink:href='img/svg/sprite.svg#profile'></use>
+												</svg>
+												<span>5 местный</span>
+											</div>
+											<div class="rent__car-info_item">
+												<svg class='icon column'>
+													<use xlink:href='img/svg/sprite.svg#column'></use>
+												</svg>
+												<span>Бензин</span>
+											</div>
 										</div>
+
 									</div>
 								</div>
 							</div>
@@ -228,7 +241,7 @@
 											</div>
 										</div>
 										<div class="rent__block_row">
-											<span class="span">Личный вдитель</span>
+											<span class="span">Личный водитель</span>
 											<span class="span">По запросу</span>
 										</div>
 										<div class="rent__block_row">
@@ -241,8 +254,8 @@
 										</div>
 									</div>
 									<div class="rent__form-wpButton">
-										<button class="rent__form-button button">Забронировать</button>
-										<button class="rent__form-button button">Заказать звонок</button>
+										<button class="rent__form-button active">Забронировать</button>
+										<button class="rent__form-button">Заказать звонок</button>
 									</div>
 								</form>
 							</div>
@@ -257,8 +270,8 @@
 	</div>
 </footer>
 	</div>
-	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js?_v=20231011195605"></script>
-<script src="js/app.min.js?_v=20231011195605"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js?_v=20231012011758"></script>
+<script src="js/app.min.js?_v=20231012011758"></script>
 </body>
 
 </html>
